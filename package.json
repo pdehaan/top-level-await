@@ -1,16 +1,18 @@
 {
   "name": "top-level-await",
-  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
-  "license": "MPL-2.0",
+  "bin": "index.mjs",
   "dependencies": {
     "axios": "^0.21.1",
     "bytes": "^3.1.0"
+  },
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
